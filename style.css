@@ -73,7 +73,7 @@ li {
 }
 
 li:hover,
-.icon:hover,
+.icone:hover,
 .conteudo:hover {
     transition: 1s;
     background-color: rgba(178, 222, 243, 0.839);
@@ -149,6 +149,18 @@ h3 {
 }
 
 
+/*BOTAO VOLTAR AO TOPO*/
+
+.voltarTopo {
+    position: fixed;
+    bottom: 3.12rem;
+    right: 6rem;
+    cursor: pointer;
+    background-color: var(--soft-black);
+    color: var(--light-texts);
+}
+
+
 /*RESPONSIVIDADE*/
 
 @media (max-width: 844px) {
@@ -177,5 +189,11 @@ h3 {
     }
     .relato {
         padding-block: 1rem;
+    }
+    .voltarTopo {
+        position: fixed;
+        bottom: 1rem;
+        right: 1rem;
+        cursor: pointer;
     }
 }
